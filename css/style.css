@@ -1,0 +1,36 @@
+body {
+    font-family: Lexend;
+    background-color: #FFF1C2;
+    color: #538BBC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Alfa Slab One;
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+}
+
+#hero, footer {
+    color: #38588F;
+    border: 5px solid #AED0FA;
+    background-color: #D8B261;
+    text-align: center;
+    padding:10px;
+}
+
+#hero img {
+    width: 350px;
+}
+
+#title img {
+    width: 80px;
+}
+
+#bio {
+    text-align: center;
+    font-size: x-large;
+}
