@@ -73,6 +73,7 @@ header {
 #gallery {
     border: 2px solid #AED0FA;
     background-color: black;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
@@ -81,4 +82,38 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+/* Literature Section */
+
+#lit {
+    border: 2px solid #AED0FA;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+/* Dropcaps */
+#lit div p:nth-child(4n+1):first-letter {
+    color: #38588F;
+    background-image: radial-gradient(#FFF1C2, blueviolet);
+    float: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    padding: .5em;
+    margin-right: .25em;
+    line-height: .65;
+    font-style: italic;
+    text-shadow: black;
+    border: 6px outset blueviolet;
+    box-shadow: 3px 3px 3px #38588F;
 }
