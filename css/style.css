@@ -6,7 +6,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Alfa Slab One;
+    text-align: center;
+}
+
+h1 {
     font-size: 40pt;
+}
+
+h2 {
+    font-size: 35pt;
 }
 
 header {
@@ -33,4 +41,23 @@ header {
 #bio {
     text-align: center;
     font-size: x-large;
+}
+
+#hobbies {
+    font-size: x-large;
+    font-style: oblique;
+}
+
+#hobbies ul li:nth-child(3n+1) {
+    color: blueviolet;
+}
+
+#hobbies ul li:nth-child(3n+2) {
+    color: magenta;
+    text-indent: 1%;
+}
+
+#hobbies ul li:nth-child(3n) {
+    color: red;
+    text-indent: 2%;
 }
