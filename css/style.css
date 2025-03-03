@@ -22,6 +22,12 @@ header {
     align-items: center;
 }
 
+#title img {
+    width: 80px;
+}
+
+/* Hero Section */
+
 #hero, footer {
     color: #38588F;
     border: 5px solid #AED0FA;
@@ -34,14 +40,14 @@ header {
     width: 350px;
 }
 
-#title img {
-    width: 80px;
-}
+/* Bio Section */
 
 #bio {
     text-align: center;
     font-size: x-large;
 }
+
+/* Hobbies Section */
 
 #hobbies {
     font-size: x-large;
@@ -60,4 +66,19 @@ header {
 #hobbies ul li:nth-child(3n) {
     color: red;
     text-indent: 2%;
+}
+
+/* Gallery Section */
+
+#gallery {
+    border: 2px solid #AED0FA;
+    background-color: black;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
 }
