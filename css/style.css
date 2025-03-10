@@ -15,6 +15,7 @@ h1 {
 
 h2 {
     font-size: 35pt;
+    margin: .1em;
 }
 
 header {
@@ -48,6 +49,11 @@ header {
 }
 
 /* Hobbies Section */
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #hobbies {
     font-size: x-large;
@@ -72,7 +78,7 @@ header {
 
 #gallery {
     border: 2px solid #AED0FA;
-    background-color: black;
+    background-color: white;
     margin-bottom: 2rem;
 }
 
@@ -116,4 +122,19 @@ header {
     text-shadow: black;
     border: 6px outset blueviolet;
     box-shadow: 3px 3px 3px #38588F;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
