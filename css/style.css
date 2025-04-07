@@ -139,8 +139,59 @@ header {
 /* Contact Form */
 #formElements {
     display: grid;
+    row-gap: .5em;
 }
- 
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 2.5px solid #AED0FA;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #AED0FA;
+    color: #38588F;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+    border: 1px solid #38588F;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: .5rem;
+}
+
+#contact button {
+    background-color: #AED0FA;
+    border: 1px solid #38588F;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
+
+#contact button:hover {
+    background-color: #538BBC;
+    color: white;
+}
+
 
 /* Dropcaps */
 
