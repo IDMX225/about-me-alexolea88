@@ -135,6 +135,12 @@ header {
     text-align: center;
 }
 
+#video p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #38588F;
+}
+
 
 /* Contact Form */
 #formElements {
@@ -209,6 +215,24 @@ legend {
     border: 6px outset blueviolet;
     box-shadow: 3px 3px 3px #38588F;
 }
+/* Phone Size */
+@media screen and (max-width: 37.5em) {
+    .video-container {
+        width: 100%;
+        max-width: 100%; 
+        margin: 10px auto;
+        padding-top: 56.25%;
+    }
+
+    #video p {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    #video {
+        padding: 0.5rem;
+    }
+}
 
 /* Tablet Size */
 @media screen and (min-width: 60em) {
@@ -232,6 +256,21 @@ legend {
     #lit div {
         max-width: 100%;
         columns: 20rem;
+    }
+
+    .video-container {
+        width: 95%;
+        max-width: 100%;
+        margin: 15px auto;
+        padding-top: 56.25%;
+    }
+
+    #video p {
+        font-size: 1.1rem;
+    }
+
+    #video {
+        padding: 1rem;
     }
 }
 
