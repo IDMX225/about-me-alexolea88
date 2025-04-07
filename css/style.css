@@ -120,21 +120,28 @@ header {
     width: 90%;
     max-width: 640px;
     text-align: center;
-  }
+}
   
-  .video-container iframe {
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     border: none;
-  }
+}
   
-  #video {
+#video {
     text-align: center;
-  }
-  
+}
+
+
+/* Contact Form */
+#formElements {
+    display: grid;
+}
+ 
+
 /* Dropcaps */
 
 #lit div p:first-child:first-letter {
@@ -195,9 +202,4 @@ header {
     figure {
         display: block;
     }
-}
-
-/* Contact Form */
-#formElements {
-    display: grid;
 }
