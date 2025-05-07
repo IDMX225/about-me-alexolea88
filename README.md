@@ -25,7 +25,7 @@ Navbar Background: Dark Gray (#333, RGB: 51, 51, 51)
 Background Accent: Gold (#D8B261, RGB: 216, 178, 97)
 
 Logo
-/*To be updated: A custom logo with my initials (AO) will replace BOB.*/
+A custom logo with my initials (AO)
 Navigation Bar
 /*To be updated: The navigation bar will link to Bio, Gallery, Blog, and Contact sections, with a hamburger menu toggle for mobile devices.*/
 

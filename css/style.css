@@ -74,6 +74,19 @@ header {
     text-indent: 2%;
 }
 
+#hobbies img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+#hobbies img:hover {
+    transform: scale(1.03); /* Zoom effect on hover */
+}
+
+#hobbies figure {
+    text-align: center;
+}
+
 /* Gallery Section */
 
 #gallery {
@@ -84,6 +97,11 @@ header {
 
 #gallery img {
     max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.03); /* Zoom effect on hover */
 }
 
 #gallery figure {
@@ -215,11 +233,23 @@ legend {
     border: 6px outset blueviolet;
     box-shadow: 3px 3px 3px #38588F;
 }
-/* Phone Size */
-@media screen and (max-width: 37.5em) {
+/* iPhone 6 Size (375px) */
+@media screen and (max-width: 375px) {
+    #hero img {
+        width: 250px;
+    }
+
+    #bio, #hobbies {
+        font-size: large;
+    }
+
+    #gallery, #hobbies figure {
+        margin: 0.5rem;
+    }
+
     .video-container {
         width: 100%;
-        max-width: 100%; 
+        max-width: 100%;
         margin: 10px auto;
         padding-top: 56.25%;
     }
@@ -234,8 +264,8 @@ legend {
     }
 }
 
-/* Tablet Size */
-@media screen and (min-width: 60em) {
+/* iPad Size (768px) */
+@media screen and (min-width: 768px) {
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -245,11 +275,11 @@ legend {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-left: 1rem;
     }
 
-    figure img{
+    figure img {
         width: 100%;
     }
 
@@ -274,8 +304,8 @@ legend {
     }
 }
 
-/* Large Screen Size */
-@media screen and (min-width: 100em) {
+/* Large Screen Size (1200px) */
+@media screen and (min-width: 1200px) {
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -286,7 +316,7 @@ legend {
     }
 
     #gallery h2 {
-        grid-column: 1/-1
+        grid-column: 1/-1;
     }
 
     figure {
