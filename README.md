@@ -25,13 +25,21 @@ Navbar Background: Dark Gray (#333, RGB: 51, 51, 51)
 Background Accent: Gold (#D8B261, RGB: 216, 178, 97)
 
 Logo
-A custom logo with my initials (AO)
+A custom monogram logo (lalezar-ao.svg) with my initials (AO) is used in the navbar, styled with #538BBC for text and #FFF1C2 for the background. A 96x96 PNG version (favicon-96x96.png) is used as the favicon for branding across browser tabs.
 Navigation Bar
 /*To be updated: The navigation bar will link to Bio, Gallery, Blog, and Contact sections, with a hamburger menu toggle for mobile devices.*/
 
+Citations
 Google Fonts: Alfa Slab One, Lexend
 
 Gallery Images: Original photos captured by me
+
+Blog Resources:
+MDN Web Docs: CSS Transitions (https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+
+CSS-Tricks: Transition (https://css-tricks.com/almanac/properties/t/transition/)
+
+W3Schools: CSS Transitions (https://www.w3schools.com/css/css3_transitions.asp)
 
 License:
 This project is licensed under the MIT License.

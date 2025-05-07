@@ -126,6 +126,17 @@ header {
     clear: both;
 }
 
+/* Blog example image styling */
+#lit .hover-example {
+    max-width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#lit .hover-example:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Video Section */
 
 .video-container {

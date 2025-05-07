@@ -125,31 +125,37 @@
 
     </section>
 
+    <!-- Blog article on image hover effects -->
     <article id="lit">
 
-        <h2>An Excerpt From Treasure Island</h2>
+        <h2>Image Hover Effects in Web Design</h2>
 
         <div>
-
-            <p>I remember him as if it were yesterday, as he came plodding to the inn door, his sea-chest following behind him in a hand-barrow—a tall, strong, heavy, nut-brown man, his tarry pigtail falling over the shoulder of his soiled blue coat, his hands ragged and scarred, with black, broken nails, and the sabre cut across one cheek, a dirty, livid white. I remember him looking round the cove and whistling to himself as he did so, and then breaking out in that old sea-song that he sang so often afterwards:</p>  
-
-            <p><em>"Fifteen men on the dead man's chest—<br>  
-            Yo-ho-ho, and a bottle of rum!"</em></p>  
-
-            <p>in the high, old tottering voice that seemed to have been tuned and broken at the capstan bars. Then he rapped on the door with a bit of stick like a handspike that he carried, and when my father appeared, called roughly for a glass of rum. This, when it was brought to him, he drank slowly, like a connoisseur, lingering on the taste and still looking about him at the cliffs and up at our signboard.</p>  
-
-            <p>"This is a handy cove," says he at length; "and a pleasant sittyated grog-shop. Much company, mate?"</p>  
-
-            <p>My father told him no, very little company, the more was the pity.</p>  
-
-            <p>"Well, then," said he, "this is the berth for me. Here you, matey," he cried to the man who trundled his sea-chest, "bring up alongside. I'll stay here a bit."</p>  
-
-            <p>And with that, he threw down three or four gold pieces upon the threshold. "You can tell me when I've worked through that," said he, looking as fierce as a commander.</p>  
-
-            <p>Indeed, as he spoke, he looked around at us all, as if daring anyone to object. He was a man of few words when it came to pleasantries, but his presence was enough to command respect. His scarred face and weather-worn clothes told of battles fought on distant seas, and there was something in his eye that warned against crossing him.</p>  
-
-            <p>My father hesitated but, seeing the gold, nodded in agreement. The strange seaman took his rum and sat by the fire, staring into the flames as if recalling some dark memory. I watched him carefully, fascinated yet wary. From that moment, the Admiral Benbow Inn was never quite the same, for with his arrival, a shadow had fallen over our quiet lives, and adventure, whether we sought it or not, had come knocking at our door.</p>
-
+            <p>Image hover effects are a powerful tool in web design, adding interactivity and visual appeal to websites. These effects occur when a user hovers their cursor over an image, triggering a change in its appearance, such as scaling, fading, or revealing additional content. Hover effects enhance user engagement by providing visual feedback and can guide attention to key elements, like gallery images or call-to-action buttons. According to MDN Web Docs, CSS properties like <code>transition</code> and <code>transform</code> are commonly used to create smooth hover animations, ensuring a polished user experience.</p>
+            <p>In my website’s photo gallery, I implemented a simple hover effect using <code>transform: scale(1.03)</code> with a <code>transition</code> property to create a subtle zoom. This effect makes images slightly larger when hovered, drawing attention without being too overwhelming to the user. CSS-Tricks explains that transitions should be kept short (e.g., 0.3 seconds) to feel smooth responsive. Other hover effects include changing <code>opacity</code> for a fade-in/out effect or applying <code>filter</code> properties like <code>grayscale</code> to alter image colors. For example, a grayscale-to-color transition can highlight vibrant images, as seen in many modern portfolio sites.</p>
+            <p>Hover effects are versatile and can be customised to perfectly fit a site’s aesthetic. On my site, I used the <code>#AED0FA</code> border color to maintain consistency with the color scheme. W3Schools notes that combining multiple properties, like <code>transform</code> and <code>box-shadow</code>, can create dynamic effects, such as a lifting shadow. Something you may need to be careful with is the overuse of hover effects because it can distract users, so moderation is key. Accessibility is also crucial. Hover effects should not be the only means of conveying information, since many users do rely on keyboards or other touch devices.</p>
+            <p>Below is an example of a hover effect applied to an image. Hover over it to see the zoom and shadow effect in action!:</p>
+            <figure>
+                <img src="img/logo-96X96.svg" alt="Example hover effect image" class="hover-example">
+                <figcaption>Hover over this image to see a zoom and shadow effect.</figcaption>
+            </figure>
+            <p>Implementing hover effects is straightforward. The CSS for the above example is:</p>
+            <pre>
+.hover-example {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-example:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+            </pre>
+            <p>This code ensures a smooth transition and adds a shadow for depth. Hover effects like these are commonly used in e-commerce, portfolios, and blogs to create engaging interfaces that make users enjoy visiting their sites. By experimenting with CSS properties, developers can craft unique effects that enhance both functionality and aesthetics, making websites more memorable and interactive.</p>
+            <p><strong>Sources:</strong></p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">MDN Web Docs: CSS Transitions</a></li>
+                <li><a href="https://css-tricks.com/almanac/properties/t/transition/">CSS-Tricks: Transition</a></li>
+                <li><a href="https://www.w3schools.com/css/css3_transitions.asp">W3Schools: CSS Transitions</a></li>
+            </ul>
         </div>
 
     </article>
